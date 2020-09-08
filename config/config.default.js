@@ -3,8 +3,10 @@
 /**
  * egg-tencentcloud-sms default config
  * @member Config#tencentcloudSms
- * @property {String} SOME_KEY - some description
+ * @property {String} secretID - secert id. see https://console.cloud.tencent.com/cam/capi
+ * @property {String} secretKEY - secert key. see https://console.cloud.tencent.com/cam/capi
  */
 exports.tencentcloudSms = {
-
+  secretID: '',
+  secretKEY: '',
 };
