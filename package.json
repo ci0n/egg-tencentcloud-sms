@@ -8,7 +8,10 @@
   "keywords": [
     "egg",
     "eggPlugin",
-    "egg-plugin"
+    "egg-plugin",
+    "tencentcloud",
+    "egg-tencentcloud",
+    "egg-tencentcloud-sms"
   ],
   "dependencies": {
     "tencentcloud-sdk-nodejs": "^3.0.244"
@@ -46,12 +49,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-tencentcloud-sms.git"
+    "url": "git+https://github.com/ci0n/egg-tencentcloud-sms.git"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-tencentcloud-sms#readme",
+  "homepage": "https://github.com/ci0n/egg-tencentcloud-sms#readme",
   "author": "ci0n",
   "license": "MIT"
 }
