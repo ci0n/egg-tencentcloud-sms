@@ -24,6 +24,7 @@
 
 See [tencent cloud sms documents](https://cloud.tencent.com/document/product/382/38764) for more help
 
+**WARNING: Not tested yet, use it carefully**
 
 ## Install
 
