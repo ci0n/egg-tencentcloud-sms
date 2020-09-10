@@ -2,8 +2,8 @@ export interface ListParams {
   Limit: number;
   Offset: number;
 }
-export interface SmsSdkAppidParams {
-  SmsSdkAppid: string;
+export interface SmsSdkAppid {
+  SmsSdkAppid: string | number;
 }
 
 export interface IntervalDateTimeParams {

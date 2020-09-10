@@ -1,4 +1,4 @@
-import { ListParams, SmsSdkAppidParams, Result, IntervalDateTimeParams } from "./base";
+import { ListParams, SmsSdkAppid, Result, IntervalDateTimeParams } from "./base";
 
 
 export interface SmsPackagesStatistics {
@@ -44,8 +44,8 @@ export interface CallbackStatusStatisticsResult extends Result {
 }
 
 
-export interface SmsPackagesStatisticsParams extends ListParams, SmsSdkAppidParams {}
+export interface SmsPackagesStatisticsParams extends ListParams, SmsSdkAppid {}
 
-export interface SendStatusStatisticsParams extends ListParams, SmsSdkAppidParams, IntervalDateTimeParams {}
+export interface SendStatusStatisticsParams extends ListParams, SmsSdkAppid, IntervalDateTimeParams {}
 
-export interface CallbackStatusStatisticsParams extends ListParams, SmsSdkAppidParams, IntervalDateTimeParams {}
+export interface CallbackStatusStatisticsParams extends ListParams, SmsSdkAppid, IntervalDateTimeParams {}

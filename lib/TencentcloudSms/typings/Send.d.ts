@@ -1,4 +1,4 @@
-import { SmsSdkAppidParams, Result } from "./base";
+import { SmsSdkAppid, Result } from "./base";
 
 
 export interface SendStatus {
@@ -15,11 +15,11 @@ export interface SendSmsResult extends Result {
   SendStatusSet: Array<SendStatus>
 }
 
-export interface SendSmsParams extends SmsSdkAppidParams {
-  PhoneNumberSet: string | Array<string>;
-  TemplateID: string;
+export interface SendSmsParams extends SmsSdkAppid {
+  PhoneNumberSet: Array<string>;
+  TemplateID: string | number;
   Sign: string;
-  TemplateParamSet?: string | Array<string> | Array<number>,
+  TemplateParamSet?: Array<string> | Array<number>,
   ExtendCode?: string;
   SessionContext?: string;
   SenderId?: string;

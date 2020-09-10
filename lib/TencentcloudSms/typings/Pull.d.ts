@@ -1,4 +1,4 @@
-import { ListParams, Result, SmsSdkAppidParams } from "./base";
+import { ListParams, Result, SmsSdkAppid } from "./base";
 
 
 export interface SendEndDateTime {
@@ -44,9 +44,9 @@ export interface PullSmsReplyStatusResult extends PullSmsReplyStatusByPhoneNumbe
 
 
 
-export interface PullSmsSendStatusByPhoneNumberParams extends ListParams, PhoneNumber, SendEndDateTime, SmsSdkAppidParams {}
+export interface PullSmsSendStatusByPhoneNumberParams extends ListParams, PhoneNumber, SendEndDateTime, SmsSdkAppid {}
 
-export interface PullSmsSendStatusParams extends SmsSdkAppidParams {
+export interface PullSmsSendStatusParams extends SmsSdkAppid {
   Limit: number;
 }
 

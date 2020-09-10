@@ -5,7 +5,7 @@ export interface TencentcloudSmsConfig {
   secretID: string,
   secretKEY: string,
   Version?: string,
-  SmsSdkAppid?: number,
+  SmsSdkAppid?: number | string,
 }
 
 declare module 'egg' {
