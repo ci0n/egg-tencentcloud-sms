@@ -19,7 +19,7 @@ export interface SendSmsParams extends SmsSdkAppid {
   PhoneNumberSet: Array<string>;
   TemplateID: string | number;
   Sign: string;
-  TemplateParamSet?: Array<string>, // must be string array.
+  TemplateParamSet?: Array<string> | Array<number>,
   ExtendCode?: string;
   SessionContext?: string;
   SenderId?: string;

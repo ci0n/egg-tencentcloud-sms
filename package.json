@@ -1,6 +1,6 @@
 {
   "name": "egg-tencentcloud-sms",
-  "version": "0.0.14-alpha",
+  "version": "0.0.15-alpha",
   "description": "egg plugin for tencent cloud sms services",
   "eggPlugin": {
     "name": "tencentcloudSms"
